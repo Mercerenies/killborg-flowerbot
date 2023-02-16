@@ -20,10 +20,14 @@ if (isIdle()) {
 
 }
 
-if (isMoving) {
-  x = toward(x, destX, MOVEMENT_SPEED);
-  y = toward(y, destY, MOVEMENT_SPEED);
-  if ((x == destX) && (y == destY)) {
-    isMoving = false;
+// Animations
+if (is_undefined(currentAnimation)) {
+  _popAnimation();
+}
+if (!is_undefined(currentAnimation)) {
+  currentAnimationTick += 1;
+  currentAnimation.play(currentAnimationTick);
+  if (currentAnimationTick >= currentAnimation.getLength()) {
+    _popAnimation();
   }
 }

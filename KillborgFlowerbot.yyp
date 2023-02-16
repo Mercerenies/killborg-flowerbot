@@ -1,0 +1,39 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.6",
+  "name": "KillborgFlowerbot",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":0,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Robot","folderPath":"folders/Robot.yy","order":0,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Utils","folderPath":"folders/Utils.yy","order":0,},
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "MetaData": {
+    "IDEVersion": "2023.1.0.58",
+  },
+  "resources": [
+    {"id":{"name":"spr_BotWheels","path":"sprites/spr_BotWheels/spr_BotWheels.yy",},"order":0,},
+    {"id":{"name":"scr_Constants","path":"scripts/scr_Constants/scr_Constants.yy",},"order":0,},
+    {"id":{"name":"spr_BotRoomIcon","path":"sprites/spr_BotRoomIcon/spr_BotRoomIcon.yy",},"order":0,},
+    {"id":{"name":"obj_Bot","path":"objects/obj_Bot/obj_Bot.yy",},"order":0,},
+    {"id":{"name":"scr_Utils","path":"scripts/scr_Utils/scr_Utils.yy",},"order":0,},
+    {"id":{"name":"spr_BotHead","path":"sprites/spr_BotHead/spr_BotHead.yy",},"order":0,},
+    {"id":{"name":"spr_BotTorso","path":"sprites/spr_BotTorso/spr_BotTorso.yy",},"order":0,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}

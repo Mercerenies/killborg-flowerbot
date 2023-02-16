@@ -15,5 +15,27 @@ isIdle = function() {
   return !isMoving;
 }
 
-// DEBUG CODE
-alarm[0] = 10;
+moveInDir = function(dir, relative) {
+  var d;
+  if (relative) {
+    d = (facingDir + dir) * 45;
+  } else {
+    d = dir * 45;
+  }
+  destX = x + GRID_SIZE * dcos(d);
+  destY = y + GRID_SIZE * dsin(d);
+  isMoving = true;
+}
+
+rotateDir = function(dir, relative) {
+  var d;
+  if (relative) {
+    d = facingDir + dir;
+  } else {
+    d = dir;
+  }
+  facingDir = d;
+  headDir = d;
+  torsoDir = d;
+  wheelsDir = d;
+}

@@ -1,23 +1,23 @@
 
 // DEBUG CODE
 if (isIdle()) {
+
   if (keyboard_check(ord("A"))) {
-    destX = x - GRID_SIZE;
-    destY = y;
-    isMoving = true;
+    moveInDir(DIR_LEFT, true);
   } else if (keyboard_check(ord("D"))) {
-    destX = x + GRID_SIZE;
-    destY = y;
-    isMoving = true;
+    moveInDir(DIR_RIGHT, true);
   } else if (keyboard_check(ord("W"))) {
-    destX = x;
-    destY = y - GRID_SIZE;
-    isMoving = true;
+    moveInDir(DIR_FORWARD, true);
   } else if (keyboard_check(ord("S"))) {
-    destX = x;
-    destY = y + GRID_SIZE;
-    isMoving = true;
+    moveInDir(DIR_BACKWARD, true);
   }
+
+  if (keyboard_check_pressed(ord("Q"))) {
+    rotateDir(DIR_LEFT, true);
+  } else if (keyboard_check_pressed(ord("E"))) {
+    rotateDir(DIR_RIGHT, true);
+  }
+
 }
 
 if (isMoving) {

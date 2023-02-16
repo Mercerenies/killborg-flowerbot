@@ -39,13 +39,13 @@ function MoveInstruction(dir_, amount_) : Instruction() constructor {
 
   static doNormal = function() {
     for (var i = 0; i < amount; i++) {
-      obj_Bot.moveInDir(dir, true);
+      obj_Bot.moveInDir(dir, true, i == amount - 1);
     }
   }
 
   static doCorrupted = function() {
     for (var i = 0; i < amount; i++) {
-      obj_Bot.moveInDir(dir + 4, true);
+      obj_Bot.moveInDir(dir + 4, true, i == amount - 1);
     }
   }
 

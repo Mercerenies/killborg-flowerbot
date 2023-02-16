@@ -19,9 +19,11 @@ if (dragging) {
 if (mouse_check_button_released(mb_left)) {
   dragging = false;
   if (collision_rectangle(x, y, x + getWidth(), y + getHeight(), obj_InstructionSet, false, false)) {
+    undo_stack_begin_move();
     if (obj_InstructionSet.executeInstruction(self)) {
-      visible = false;
+      undo_stack_apply_change(new HideInstructionChange(self));
     }
+    undo_stack_complete_move();
   }
   x = xstart;
   y = ystart;

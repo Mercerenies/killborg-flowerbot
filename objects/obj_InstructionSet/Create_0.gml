@@ -9,7 +9,7 @@ executeInstruction = function(slot) {
   if (i >= instructionCount) {
     return false;
   }
-  instructions[i] = slot;
+  undo_stack_apply_change(new PushInstructionChange(slot));
   if (corruptedInstructions[i]) {
     slot.instruction.doCorrupted();
   } else {

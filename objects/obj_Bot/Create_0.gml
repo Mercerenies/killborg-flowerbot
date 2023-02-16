@@ -38,7 +38,7 @@ _popAnimation = function() {
   currentAnimation = undefined;
 }
 
-moveInDir = function(dir, relative) {
+moveInDir = function(dir, relative, revertWheels) {
   var d;
   if (relative) {
     d = (facingDir + dir);
@@ -47,7 +47,7 @@ moveInDir = function(dir, relative) {
   }
   var dx = GRID_SIZE * dcos(d * 45);
   var dy = GRID_SIZE * dsin(d * 45);
-  undo_stack_apply_change(new MoveBotChange(d, dx, dy));
+  undo_stack_apply_change(new MoveBotChange(d, dx, dy, revertWheels));
 }
 
 rotateDir = function(dir, relative) {

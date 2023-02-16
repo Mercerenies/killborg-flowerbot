@@ -1,10 +1,11 @@
 
-function MoveBotChange(wheelsDir_, deltaX_, deltaY_) : UndoableChange() constructor {
+function MoveBotChange(wheelsDir_, deltaX_, deltaY_, revertWheels_) : UndoableChange() constructor {
   wheelsDir = wheelsDir_;
   srcX = obj_Bot.x;
   srcY = obj_Bot.y;
   deltaX = deltaX_;
   deltaY = deltaY_;
+  revertWheels = revertWheels_;
 
   static apply = function() {
     with (obj_Bot) {
@@ -12,7 +13,9 @@ function MoveBotChange(wheelsDir_, deltaX_, deltaY_) : UndoableChange() construc
         queueAnimation(new RotateWheelsAnimation(ROTATE_LENGTH, self, other.wheelsDir));
       }
       queueAnimation(new WalkAnimation(GRID_SIZE / MOVEMENT_SPEED, self, other.deltaX, other.deltaY));
-      queueAnimation(new RotateWheelsAnimation(ROTATE_LENGTH, self, facingDir));
+      if (other.revertWheels) {
+        queueAnimation(new RotateWheelsAnimation(ROTATE_LENGTH, self, facingDir));
+      }
     }
   }
 

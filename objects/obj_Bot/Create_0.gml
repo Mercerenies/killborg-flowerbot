@@ -62,7 +62,5 @@ rotateDir = function(dir, relative) {
     d = dir;
   }
   facingDir = d;
-  headDir = d;
-  torsoDir = d;
-  wheelsDir = d;
+  queueAnimation(new RotateBodyAnimation(ROTATE_LENGTH, self, d));
 }

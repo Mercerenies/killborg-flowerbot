@@ -18,7 +18,7 @@ function modulo(a, b) {
 
 function wind(tick) {
   // Function for a good wind effect stolen from my Muffins project :)
-  var period = 8 * fps;
-  var normalizedTick = power(tick / period, 2.5);
+  var period = 8 * GAMESPEED;
+  var normalizedTick = power((tick % period) / period, 2.5);
   return sin(normalizedTick * 2 * pi - pi / 2) * 0.5 + 0.5;
 }

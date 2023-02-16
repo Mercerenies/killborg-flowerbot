@@ -28,5 +28,3 @@ drawAt = function(xx, yy, corrupted) {
   draw_set_color(c_white);
   draw_text(xx + 4, yy + 5, text);
 }
-
-instruction = new ForwardInstruction(1); // DEBUG CODE

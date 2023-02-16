@@ -11,6 +11,7 @@
     {"name":"Alphish","order":1,"path":"folders/Packages/Alphish.yy",},
     {"name":"Common","order":1,"path":"folders/Packages/Alphish/Common.yy",},
     {"name":"Undo Stack","order":2,"path":"folders/Packages/Alphish/Undo Stack.yy",},
+    {"name":"Undo","order":17,"path":"folders/Undo.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_BotWheels","order":2,"path":"sprites/spr_BotWheels/spr_BotWheels.yy",},

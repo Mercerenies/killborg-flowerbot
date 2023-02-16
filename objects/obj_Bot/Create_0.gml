@@ -45,13 +45,9 @@ moveInDir = function(dir, relative) {
   } else {
     d = dir;
   }
-  var destX = x + GRID_SIZE * dcos(d * 45);
-  var destY = y + GRID_SIZE * dsin(d * 45);
-  if (abs(angleDifference(facingDir, d)) != 4) {
-    queueAnimation(new RotateWheelsAnimation(ROTATE_LENGTH, self, d));
-  }
-  queueAnimation(new WalkAnimation(GRID_SIZE / MOVEMENT_SPEED, self, destX, destY));
-  queueAnimation(new RotateWheelsAnimation(ROTATE_LENGTH, self, facingDir));
+  var dx = GRID_SIZE * dcos(d * 45);
+  var dy = GRID_SIZE * dsin(d * 45);
+  undo_stack_apply_change(new MoveBotChange(d, dx, dy));
 }
 
 rotateDir = function(dir, relative) {

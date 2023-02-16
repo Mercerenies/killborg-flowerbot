@@ -11,26 +11,41 @@ function Instruction() constructor {
 
 }
 
-function ForwardInstruction(amount_) : Instruction() constructor {
+function MoveInstruction(dir_, amount_) : Instruction() constructor {
+  dir = dir_;
   amount = amount_;
 
+  static directionWord = function(d) {
+    switch (modulo(d, 8)) {
+    case DIR_FORWARD:
+      return "forward";
+    case DIR_BACKWARD:
+      return "back";
+    case DIR_LEFT:
+      return "left";
+    case DIR_RIGHT:
+      return "right";
+    }
+    return "forward";
+  }
+
   static getText = function() {
-    return "forward " + string(amount);
+    return directionWord(dir) + " " + string(amount);
   }
 
   static getCorruptedText = function() {
-    return "back " + string(amount);
+    return directionWord(dir + 4) + " " + string(amount);
   }
 
   static doNormal = function() {
     for (var i = 0; i < amount; i++) {
-      obj_Bot.moveInDir(DIR_FORWARD, true);
+      obj_Bot.moveInDir(dir, true);
     }
   }
 
   static doCorrupted = function() {
     for (var i = 0; i < amount; i++) {
-      obj_Bot.moveInDir(DIR_BACKWARD, true);
+      obj_Bot.moveInDir(dir + 4, true);
     }
   }
 

@@ -1,13 +1,23 @@
 
-instructionCount = 5;
+instructionCount = 1;
+corruptedInstructions = [false];
 
 instructions = [];
 
 executeInstruction = function(slot) {
-  if (array_length(instructions) >= instructionCount) {
+  var i = array_length(instructions);
+  if (i >= instructionCount) {
     return false;
   }
-  instructions[array_length(instructions)] = slot;
-  slot.instruction.doNormal();
+  instructions[i] = slot;
+  if (corruptedInstructions[i]) {
+    slot.instruction.doCorrupted();
+  } else {
+    slot.instruction.doNormal();
+  }
   return true;
 }
+
+// DEBUG CODE
+instructionCount = 5;
+corruptedInstructions = [false, true, false, false, false];

@@ -38,6 +38,12 @@ function WalkAnimation(length_, bot_, deltaX_, deltaY_) : BotAnimation() constru
         undo_stack_apply_change(new BotFallOverChange());
         undo_stack_apply_change(new ActivateKillModeChange());
       }
+      // See if we corrupt an instruction.
+      var zapTile = instance_position(bot.x + GRID_SIZE / 2, bot.y + GRID_SIZE / 2, obj_ZapTile);
+      if (instance_exists(zapTile) && (zapTile.image_index == 0)) {
+        undo_stack_apply_change(new DeactivateZapTileChange(zapTile));
+        obj_InstructionSet.flipCorruptionOnNext();
+      }
     }
   }
 

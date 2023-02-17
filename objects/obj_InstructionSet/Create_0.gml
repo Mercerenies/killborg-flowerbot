@@ -18,6 +18,18 @@ executeInstruction = function(slot) {
   return true;
 }
 
-// DEBUG CODE
-instructionCount = 5;
-corruptedInstructions = [false, true, false, false, false];
+flipCorruptionOnNext = function() {
+  var i = array_length(instructions);
+  if (i < instructionCount) {
+    undo_stack_apply_change(new FlipInstructionCorruptionChange(i));
+  }
+}
+
+zapInstruction = function(index) {
+  with (instance_create_layer(0, 0, "Instances", obj_ZapEffect)) {
+    xx = other.x + 25;
+    yy = other.y + 16 + index * INSTRUCTION_HEIGHT;
+    ww = 250;
+    hh = INSTRUCTION_HEIGHT;
+  }
+}

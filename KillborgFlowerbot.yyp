@@ -131,6 +131,7 @@
     {"id":{"name":"RotateBotChange","path":"scripts/RotateBotChange/RotateBotChange.yy",},"order":0,},
     {"id":{"name":"obj_ZapEffect","path":"objects/obj_ZapEffect/obj_ZapEffect.yy",},"order":0,},
     {"id":{"name":"FlipInstructionCorruptionChange","path":"scripts/FlipInstructionCorruptionChange/FlipInstructionCorruptionChange.yy",},"order":0,},
+    {"id":{"name":"rm_Level25","path":"rooms/rm_Level25/rm_Level25.yy",},"order":0,},
     {"id":{"name":"rm_Level02","path":"rooms/rm_Level02/rm_Level02.yy",},"order":0,},
     {"id":{"name":"Alphish_UndoStack_HowTo","path":"notes/Alphish_UndoStack_HowTo/Alphish_UndoStack_HowTo.yy",},"order":0,},
     {"id":{"name":"spr_InstructionSet","path":"sprites/spr_InstructionSet/spr_InstructionSet.yy",},"order":0,},
@@ -161,8 +162,9 @@
     {"roomId":{"name":"rm_Level21","path":"rooms/rm_Level21/rm_Level21.yy",},},
     {"roomId":{"name":"rm_Level22","path":"rooms/rm_Level22/rm_Level22.yy",},},
     {"roomId":{"name":"rm_Level23","path":"rooms/rm_Level23/rm_Level23.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_Level24","path":"rooms/rm_Level24/rm_Level24.yy",},},
+    {"roomId":{"name":"rm_Level25","path":"rooms/rm_Level25/rm_Level25.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

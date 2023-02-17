@@ -103,6 +103,7 @@
     {"name":"RotateBotChange","order":3,"path":"scripts/RotateBotChange/RotateBotChange.yy",},
     {"name":"obj_ZapEffect","order":13,"path":"objects/obj_ZapEffect/obj_ZapEffect.yy",},
     {"name":"FlipInstructionCorruptionChange","order":9,"path":"scripts/FlipInstructionCorruptionChange/FlipInstructionCorruptionChange.yy",},
+    {"name":"rm_Level25","order":27,"path":"rooms/rm_Level25/rm_Level25.yy",},
     {"name":"rm_Level02","order":3,"path":"rooms/rm_Level02/rm_Level02.yy",},
     {"name":"spr_InstructionSet","order":2,"path":"sprites/spr_InstructionSet/spr_InstructionSet.yy",},
   ],

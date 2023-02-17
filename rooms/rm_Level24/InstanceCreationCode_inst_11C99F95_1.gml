@@ -1,2 +1,2 @@
 
-instruction = new RotateInstruction(DIR_BACKWARD);
+instruction = new MoveInstruction(DIR_RIGHT, 2);

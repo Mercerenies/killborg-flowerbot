@@ -5,7 +5,7 @@
   + [X] Strafing left/right/back (level 5)
   + [X] Multi-step instructions (level 12, quietly)
   + [X] Absolute facing (level 16)
-  + [ ] Absolute movement
+  + [X] Absolute movement
   + [X] Wait (level 10)
   + [X] Corruption (level 8)
   + [ ] Zap tile

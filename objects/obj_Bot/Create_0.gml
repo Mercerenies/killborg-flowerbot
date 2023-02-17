@@ -40,6 +40,16 @@ _popAnimation = function() {
     }
   }
   currentAnimation = undefined;
+  _checkFlowers();
+}
+
+_checkFlowers = function() {
+  var facingX = x + GRID_SIZE * dcos(facingDir * 45);
+  var facingY = y + GRID_SIZE * dsin(facingDir * 45);
+  var humanInFront = instance_position(facingX + GRID_SIZE / 2, facingY + GRID_SIZE / 2, obj_Human);
+  if (instance_exists(humanInFront)) {
+    undo_stack_apply_change(new EnflowerHumanChange(humanInFront));
+  }
 }
 
 moveInDir = function(dir, relative, revertWheels) {

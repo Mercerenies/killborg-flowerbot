@@ -23,7 +23,6 @@ if (mouse_check_button_released(mb_left)) {
     if (obj_InstructionSet.executeInstruction(self)) {
       undo_stack_apply_change(new HideInstructionChange(self));
     }
-    undo_stack_complete_move();
   }
   x = xstart;
   y = ystart;

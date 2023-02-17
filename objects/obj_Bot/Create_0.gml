@@ -13,6 +13,10 @@ currentAnimationTick = 0;
 animationQueue = ds_queue_create();
 
 isIdle = function() {
+  return is_undefined(currentAnimation) && (!obj_CurrentSetting.killMode);
+}
+
+canUndo = function() {
   return is_undefined(currentAnimation);
 }
 

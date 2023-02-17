@@ -1,4 +1,4 @@
 
-if (obj_Bot.isIdle()) {
+if (obj_Bot.canUndo()) {
   image_index = 1;
 }

@@ -3,13 +3,13 @@
   + [X] Forward instruction (level 1)
   + [X] Rotate instructions (level 2)
   + [X] Strafing left/right/back (level 5)
-  + [ ] Multi-step instructions
-  + [ ] Absolute facing
+  + [X] Multi-step instructions (level 12, quietly)
+  + [X] Absolute facing (level 16)
   + [ ] Absolute movement
-  + [ ] Wait
+  + [X] Wait (level 10)
   + [X] Corruption (level 8)
   + [ ] Zap tile
-  + [ ] Trampling
+  + [X] Trampling (level 12)
   + [ ] Rocky ground
   + [X] Undo (level 3)
 * DIALOGUE

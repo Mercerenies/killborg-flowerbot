@@ -1,3 +1,3 @@
 
-instructionCount = 3;
-corruptedInstructions = [false, false, false];
+instructionCount = 2;
+corruptedInstructions = [false, false];

@@ -67,7 +67,7 @@ _checkForWin = function() {
   }
   var allHumansHaveFlowers = true;
   with (obj_Human) {
-    if (!hasFlower) {
+    if ((!hasFlower) || (flattening)) {
       allHumansHaveFlowers = false;
       break;
     }

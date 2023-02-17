@@ -15,7 +15,10 @@
     "name": "Robot",
     "path": "folders/Robot.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_ObjectInRoom",
+    "path": "objects/par_ObjectInRoom/par_ObjectInRoom.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

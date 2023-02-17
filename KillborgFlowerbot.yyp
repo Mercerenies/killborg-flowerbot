@@ -71,6 +71,7 @@
     {"id":{"name":"spr_BotHead","path":"sprites/spr_BotHead/spr_BotHead.yy",},"order":0,},
     {"id":{"name":"struct_UndoableMove","path":"scripts/struct_UndoableMove/struct_UndoableMove.yy",},"order":0,},
     {"id":{"name":"spr_HumanRoomIcon","path":"sprites/spr_HumanRoomIcon/spr_HumanRoomIcon.yy",},"order":0,},
+    {"id":{"name":"par_ObjectInRoom","path":"objects/par_ObjectInRoom/par_ObjectInRoom.yy",},"order":0,},
     {"id":{"name":"scr_Instructions","path":"scripts/scr_Instructions/scr_Instructions.yy",},"order":0,},
     {"id":{"name":"spr_BotTorso","path":"sprites/spr_BotTorso/spr_BotTorso.yy",},"order":0,},
     {"id":{"name":"rm_Init","path":"rooms/rm_Init/rm_Init.yy",},"order":0,},

@@ -46,6 +46,7 @@
     {"name":"base_UndoableChange","order":1,"path":"scripts/base_UndoableChange/base_UndoableChange.yy",},
     {"name":"struct_UndoableMove","order":4,"path":"scripts/struct_UndoableMove/struct_UndoableMove.yy",},
     {"name":"spr_HumanRoomIcon","order":2,"path":"sprites/spr_HumanRoomIcon/spr_HumanRoomIcon.yy",},
+    {"name":"par_ObjectInRoom","order":2,"path":"objects/par_ObjectInRoom/par_ObjectInRoom.yy",},
     {"name":"scr_Instructions","order":7,"path":"scripts/scr_Instructions/scr_Instructions.yy",},
     {"name":"spr_BotTorso","order":1,"path":"sprites/spr_BotTorso/spr_BotTorso.yy",},
     {"name":"rm_Init","order":1,"path":"rooms/rm_Init/rm_Init.yy",},

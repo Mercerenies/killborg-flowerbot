@@ -49,6 +49,7 @@
     {"name":"scr_Instructions","order":7,"path":"scripts/scr_Instructions/scr_Instructions.yy",},
     {"name":"spr_BotTorso","order":1,"path":"sprites/spr_BotTorso/spr_BotTorso.yy",},
     {"name":"rm_Init","order":1,"path":"rooms/rm_Init/rm_Init.yy",},
+    {"name":"RotateBotChange","order":3,"path":"scripts/RotateBotChange/RotateBotChange.yy",},
     {"name":"spr_InstructionSet","order":2,"path":"sprites/spr_InstructionSet/spr_InstructionSet.yy",},
   ],
 }

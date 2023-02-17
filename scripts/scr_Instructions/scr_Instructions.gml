@@ -50,3 +50,39 @@ function MoveInstruction(dir_, amount_) : Instruction() constructor {
   }
 
 }
+
+
+function RotateInstruction(dir_) : Instruction() constructor {
+  dir = dir_;
+
+  static directionWord = function(d) {
+    switch (modulo(d, 8)) {
+    case DIR_FORWARD:
+      return "forward";
+    case DIR_BACKWARD:
+      return "180";
+    case DIR_LEFT:
+      return "left";
+    case DIR_RIGHT:
+      return "right";
+    }
+    return "forward";
+  }
+
+  static getText = function() {
+    return "rotate " + directionWord(dir);
+  }
+
+  static getCorruptedText = function() {
+    return "rotate " + directionWord(- dir);
+  }
+
+  static doNormal = function() {
+    obj_Bot.rotateDir(dir, true);
+  }
+
+  static doCorrupted = function() {
+    obj_Bot.rotateDir(- dir, true);
+  }
+
+}

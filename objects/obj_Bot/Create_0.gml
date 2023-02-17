@@ -57,6 +57,5 @@ rotateDir = function(dir, relative) {
   } else {
     d = dir;
   }
-  facingDir = d;
-  queueAnimation(new RotateBodyAnimation(ROTATE_LENGTH, self, d));
+  undo_stack_apply_change(new RotateBotChange(d));
 }

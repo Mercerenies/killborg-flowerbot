@@ -74,6 +74,7 @@
     {"id":{"name":"scr_Instructions","path":"scripts/scr_Instructions/scr_Instructions.yy",},"order":0,},
     {"id":{"name":"spr_BotTorso","path":"sprites/spr_BotTorso/spr_BotTorso.yy",},"order":0,},
     {"id":{"name":"rm_Init","path":"rooms/rm_Init/rm_Init.yy",},"order":0,},
+    {"id":{"name":"RotateBotChange","path":"scripts/RotateBotChange/RotateBotChange.yy",},"order":0,},
     {"id":{"name":"Alphish_UndoStack_HowTo","path":"notes/Alphish_UndoStack_HowTo/Alphish_UndoStack_HowTo.yy",},"order":0,},
     {"id":{"name":"spr_InstructionSet","path":"sprites/spr_InstructionSet/spr_InstructionSet.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

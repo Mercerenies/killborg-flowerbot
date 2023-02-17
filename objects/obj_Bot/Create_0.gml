@@ -8,12 +8,15 @@ wheelsDir = 0;
 
 facingDir = 0;
 
+fallingOver = false;
+fallAngle = 0;
+
 currentAnimation = undefined;
 currentAnimationTick = 0;
 animationQueue = ds_queue_create();
 
 isIdle = function() {
-  return is_undefined(currentAnimation) && (!obj_CurrentSetting.killMode);
+  return is_undefined(currentAnimation) && (!obj_CurrentSetting.killMode) && (!fallingOver);
 }
 
 canUndo = function() {
@@ -25,6 +28,10 @@ queueAnimation = function(animation) {
   if (is_undefined(currentAnimation)) {
     _popAnimation();
   }
+}
+
+cancelAnimations = function() {
+  ds_queue_clear(animationQueue);
 }
 
 _popAnimation = function() {

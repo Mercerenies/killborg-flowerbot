@@ -1,11 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_GrassTile",
+  "name": "par_Tile",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -13,10 +11,7 @@
     "name": "Tiles",
     "path": "folders/Tiles.yy",
   },
-  "parentObjectId": {
-    "name": "par_Tile",
-    "path": "objects/par_Tile/par_Tile.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -32,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_GrassTile",
-    "path": "sprites/spr_GrassTile/spr_GrassTile.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

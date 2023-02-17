@@ -10,3 +10,7 @@ if (!is_undefined(currentAnimation)) {
     _popAnimation();
   }
 }
+
+if (fallingOver) {
+  fallAngle = toward(fallAngle, -90, 6);
+}

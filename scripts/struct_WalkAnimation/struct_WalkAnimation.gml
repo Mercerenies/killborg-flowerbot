@@ -31,6 +31,14 @@ function WalkAnimation(length_, bot_, deltaX_, deltaY_) : BotAnimation() constru
     var progress = tick / length;
     bot.x = lerp(srcX, targetX, progress);
     bot.y = lerp(srcY, targetY, progress);
+
+    if (tick == length) {
+      // See if we need to fall over.
+      if (position_meeting(bot.x + GRID_SIZE / 2, bot.y + GRID_SIZE / 2, obj_RockyTile)) {
+        undo_stack_apply_change(new BotFallOverChange());
+        undo_stack_apply_change(new ActivateKillModeChange());
+      }
+    }
   }
 
 }

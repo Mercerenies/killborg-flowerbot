@@ -1,0 +1,23 @@
+
+* THINGS TO INTRODUCE
+  + [X] Forward instruction (level 1)
+  + [X] Rotate instructions (level 2)
+  + [X] Strafing left/right/back (level 5)
+  + [ ] Multi-step instructions
+  + [ ] Absolute facing
+  + [ ] Absolute movement
+  + [ ] Wait
+  + [X] Corruption (level 8)
+  + [ ] Zap tile
+  + [ ] Trampling
+  + [ ] Rocky ground
+  + [X] Undo (level 3)
+* DIALOGUE
+  + [X] Introduction
+* STUFF
+  + [ ] BGM
+  + [ ] SFX
+  + [ ] Voice acting
+  + [ ] Name the levels
+  + [ ] Final check: level order
+  + [ ] Final check: todo and debug

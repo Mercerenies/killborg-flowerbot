@@ -1,0 +1,6 @@
+
+/*
+initialDia = function() {
+}
+initialDia();
+*/

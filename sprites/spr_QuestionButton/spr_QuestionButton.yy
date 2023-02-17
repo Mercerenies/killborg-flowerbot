@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_UndoButton",
+  "name": "spr_QuestionButton",
   "bbox_bottom": 39,
   "bbox_left": 0,
   "bbox_right": 39,
@@ -33,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_UndoButton",
+    "name": "spr_QuestionButton",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"50ddd444-5557-4bff-914a-43142c9473ac","path":"sprites/spr_UndoButton/spr_UndoButton.yy",},},},"Disabled":false,"id":"00e13cb3-b975-4a0b-b29c-0dc97633cee8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"92d955bd-98e7-483b-827a-d6728cc33496","path":"sprites/spr_UndoButton/spr_UndoButton.yy",},},},"Disabled":false,"id":"9be241ee-9bdf-48c4-918f-872870ccf964","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"50ddd444-5557-4bff-914a-43142c9473ac","path":"sprites/spr_QuestionButton/spr_QuestionButton.yy",},},},"Disabled":false,"id":"e1e31c98-50a0-40a2-829b-3f34f00d9230","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"92d955bd-98e7-483b-827a-d6728cc33496","path":"sprites/spr_QuestionButton/spr_QuestionButton.yy",},},},"Disabled":false,"id":"c050fe83-ee35-4380-ae6d-e0f1b8b6224a","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

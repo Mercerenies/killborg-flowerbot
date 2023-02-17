@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_UndoButton",
+  "name": "obj_QuestionButton",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_UndoButton",
-    "path": "sprites/spr_UndoButton/spr_UndoButton.yy",
+    "name": "spr_QuestionButton",
+    "path": "sprites/spr_QuestionButton/spr_QuestionButton.yy",
   },
   "spriteMaskId": null,
   "visible": true,

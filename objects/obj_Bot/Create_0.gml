@@ -16,11 +16,11 @@ currentAnimationTick = 0;
 animationQueue = ds_queue_create();
 
 isIdle = function() {
-  return is_undefined(currentAnimation) && (!obj_CurrentSetting.killMode) && (!fallingOver);
+  return is_undefined(currentAnimation) && (!obj_CurrentSetting.killMode) && (!fallingOver) && !obj_DialogueBar.isShowingDia();
 }
 
 canUndo = function() {
-  return is_undefined(currentAnimation);
+  return is_undefined(currentAnimation) && !obj_DialogueBar.isShowingDia();
 }
 
 queueAnimation = function(animation) {
@@ -80,3 +80,5 @@ rotateDir = function(dir, relative) {
   }
   undo_stack_apply_change(new RotateBotChange(d));
 }
+
+// TODO Check for out of bounds?

@@ -1,18 +1,22 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Sun",
+  "name": "obj_AlienTile",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Skybox",
-    "path": "folders/Skybox.yy",
+    "name": "Tiles",
+    "path": "folders/Tiles.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_Tile",
+    "path": "objects/par_Tile/par_Tile.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_SunSprite",
-    "path": "sprites/spr_SunSprite/spr_SunSprite.yy",
+    "name": "spr_AlienTile",
+    "path": "sprites/spr_AlienTile/spr_AlienTile.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -51,6 +51,7 @@
     {"name":"PushInstructionChange","order":2,"path":"scripts/PushInstructionChange/PushInstructionChange.yy",},
     {"name":"struct_Dia","order":3,"path":"scripts/struct_Dia/struct_Dia.yy",},
     {"name":"obj_RockyTile","order":7,"path":"objects/obj_RockyTile/obj_RockyTile.yy",},
+    {"name":"rm_Level01","order":2,"path":"rooms/rm_Level01/rm_Level01.yy",},
     {"name":"obj_Bot","order":5,"path":"objects/obj_Bot/obj_Bot.yy",},
     {"name":"spr_CloudGenerator","order":2,"path":"sprites/spr_CloudGenerator/spr_CloudGenerator.yy",},
     {"name":"spr_Sun","order":5,"path":"sprites/spr_Sun/spr_Sun.yy",},
@@ -80,6 +81,7 @@
     {"name":"RotateBotChange","order":3,"path":"scripts/RotateBotChange/RotateBotChange.yy",},
     {"name":"obj_ZapEffect","order":13,"path":"objects/obj_ZapEffect/obj_ZapEffect.yy",},
     {"name":"FlipInstructionCorruptionChange","order":9,"path":"scripts/FlipInstructionCorruptionChange/FlipInstructionCorruptionChange.yy",},
+    {"name":"rm_Level02","order":3,"path":"rooms/rm_Level02/rm_Level02.yy",},
     {"name":"spr_InstructionSet","order":2,"path":"sprites/spr_InstructionSet/spr_InstructionSet.yy",},
   ],
 }

@@ -75,6 +75,7 @@
     {"id":{"name":"MoveBotChange","path":"scripts/MoveBotChange/MoveBotChange.yy",},"order":0,},
     {"id":{"name":"struct_Dia","path":"scripts/struct_Dia/struct_Dia.yy",},"order":0,},
     {"id":{"name":"obj_RockyTile","path":"objects/obj_RockyTile/obj_RockyTile.yy",},"order":0,},
+    {"id":{"name":"rm_Level01","path":"rooms/rm_Level01/rm_Level01.yy",},"order":0,},
     {"id":{"name":"obj_Bot","path":"objects/obj_Bot/obj_Bot.yy",},"order":0,},
     {"id":{"name":"spr_CloudGenerator","path":"sprites/spr_CloudGenerator/spr_CloudGenerator.yy",},"order":0,},
     {"id":{"name":"spr_Sun","path":"sprites/spr_Sun/spr_Sun.yy",},"order":0,},
@@ -108,12 +109,15 @@
     {"id":{"name":"RotateBotChange","path":"scripts/RotateBotChange/RotateBotChange.yy",},"order":0,},
     {"id":{"name":"obj_ZapEffect","path":"objects/obj_ZapEffect/obj_ZapEffect.yy",},"order":0,},
     {"id":{"name":"FlipInstructionCorruptionChange","path":"scripts/FlipInstructionCorruptionChange/FlipInstructionCorruptionChange.yy",},"order":0,},
+    {"id":{"name":"rm_Level02","path":"rooms/rm_Level02/rm_Level02.yy",},"order":0,},
     {"id":{"name":"Alphish_UndoStack_HowTo","path":"notes/Alphish_UndoStack_HowTo/Alphish_UndoStack_HowTo.yy",},"order":0,},
     {"id":{"name":"spr_InstructionSet","path":"sprites/spr_InstructionSet/spr_InstructionSet.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_Init","path":"rooms/rm_Init/rm_Init.yy",},},
+    {"roomId":{"name":"rm_Level02","path":"rooms/rm_Level02/rm_Level02.yy",},},
+    {"roomId":{"name":"rm_Level01","path":"rooms/rm_Level01/rm_Level01.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "TextureGroups": [

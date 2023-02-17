@@ -10,17 +10,18 @@ facingDir = 0;
 
 fallingOver = false;
 fallAngle = 0;
+hasWin = false;
 
 currentAnimation = undefined;
 currentAnimationTick = 0;
 animationQueue = ds_queue_create();
 
 isIdle = function() {
-  return is_undefined(currentAnimation) && (!obj_CurrentSetting.killMode) && (!fallingOver) && !obj_DialogueBar.isShowingDia();
+  return is_undefined(currentAnimation) && (!obj_CurrentSetting.killMode) && (!fallingOver) && !obj_DialogueBar.isShowingDia() && !hasWin;
 }
 
 canUndo = function() {
-  return is_undefined(currentAnimation) && !obj_DialogueBar.isShowingDia();
+  return is_undefined(currentAnimation) && !obj_DialogueBar.isShowingDia() && !hasWin;
 }
 
 queueAnimation = function(animation) {
@@ -56,6 +57,25 @@ _checkFlowers = function() {
   var humanInFront = instance_position(facingX + GRID_SIZE / 2, facingY + GRID_SIZE / 2, obj_Human);
   if (instance_exists(humanInFront)) {
     undo_stack_apply_change(new EnflowerHumanChange(humanInFront));
+    _checkForWin();
+  }
+}
+
+_checkForWin = function() {
+  if (hasWin) {
+    return;
+  }
+  var allHumansHaveFlowers = true;
+  with (obj_Human) {
+    if (!hasFlower) {
+      allHumansHaveFlowers = false;
+      break;
+    }
+  }
+  if (allHumansHaveFlowers) {
+    hasWin = true;
+    obj_CurrentSetting.success = true;
+    alarm[0] = 60;
   }
 }
 
@@ -80,5 +100,3 @@ rotateDir = function(dir, relative) {
   }
   undo_stack_apply_change(new RotateBotChange(d));
 }
-
-// TODO Check for out of bounds?

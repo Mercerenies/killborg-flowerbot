@@ -24,6 +24,16 @@ function WalkAnimation(length_, bot_, deltaX_, deltaY_) : BotAnimation() constru
       humanAtTarget.flatten();
     }
 
+    var tileAtTarget = instance_position(targetX + GRID_SIZE / 2, targetY + GRID_SIZE / 2, par_Tile);
+    if (!instance_exists(tileAtTarget)) {
+      // Player moved out of bounds, die.
+      undo_stack_apply_change(new BotFallOverChange());
+      undo_stack_apply_change(new ActivateKillModeChange());
+      // And cancel the current animation.
+      targetX = srcX;
+      targetY = srcY;
+    }
+
   }
 
   // Receives a value from 0 up to getLength() indicating progress.

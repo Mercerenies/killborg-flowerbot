@@ -1,2 +1,3 @@
 
 killMode = false;
+success = false;

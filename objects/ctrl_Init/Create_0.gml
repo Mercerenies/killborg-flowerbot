@@ -1,4 +1,6 @@
 
+randomize();
+
 global.system = part_system_create();
 part_system_depth(global.system, -99999);
 

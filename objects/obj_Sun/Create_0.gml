@@ -15,4 +15,4 @@ setProgress = function(amount) {
   layer_background_blend(layer_background_get_id("Background"), c)
 }
 
-setProgress(0);
+setProgress(0); // TODO Based on room progress

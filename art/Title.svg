@@ -335,5 +335,31 @@
          y="318.28793"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'The Keepsake Days';-inkscape-font-specification:'The Keepsake Days Bold';text-align:center;text-anchor:middle;fill:#535353;fill-opacity:1;stroke-width:1.67165"
          id="tspan840-0">LEVEL SELECT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:900;font-size:66.8657px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Heavy';text-align:center;text-anchor:middle;stroke-width:1.67165"
+       x="125.52441"
+       y="475.66257"
+       id="text2379-9-0"
+       inkscape:export-xdpi="16.143471"
+       inkscape:export-ydpi="16.143471"><tspan
+         sodipodi:role="line"
+         x="125.5244"
+         y="475.66257"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'The Keepsake Days';-inkscape-font-specification:'The Keepsake Days Bold';text-align:center;text-anchor:middle;fill:#fafafa;fill-opacity:1;stroke-width:1.67165"
+         id="tspan840-0-8">Game Over</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:900;font-size:66.8657px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Heavy';text-align:center;text-anchor:middle;stroke-width:1.67165"
+       x="123.04288"
+       y="650.61084"
+       id="text2379-9-0-8"
+       inkscape:export-xdpi="16.143471"
+       inkscape:export-ydpi="16.143471"><tspan
+         sodipodi:role="line"
+         x="123.04286"
+         y="650.61084"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'The Keepsake Days';-inkscape-font-specification:'The Keepsake Days Bold';text-align:center;text-anchor:middle;fill:#fafafa;fill-opacity:1;stroke-width:1.67165"
+         id="tspan840-0-8-3">Have a flower!</tspan></text>
   </g>
 </svg>

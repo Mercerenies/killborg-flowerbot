@@ -1,5 +1,6 @@
 
-for (var i = 0; i < LEVEL_COUNT; i++) {
+var lvls = min(LEVEL_COUNT, loadGame());
+for (var i = 0; i < lvls; i++) {
   var col = i % 5;
   var row = i div 5;
   var xx = (col + 1) * room_width / 6;

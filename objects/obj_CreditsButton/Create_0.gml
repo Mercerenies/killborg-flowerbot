@@ -4,5 +4,5 @@ event_inherited();
 
 text = "Credits";
 onClick = function() {
-  // TODO
+  room_goto(rm_Credits);
 }

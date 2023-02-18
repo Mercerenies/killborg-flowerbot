@@ -1,4 +1,5 @@
 
-if (containedWithin(mouse_x, mouse_y)) {
+if (visible && clicking && containedWithin(mouse_x, mouse_y)) {
   onClick();
 }
+clicking = false;

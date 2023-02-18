@@ -17,6 +17,7 @@
 * STUFF
   + [ ] BGM
   + [ ] SFX
+    - [ ] Dial up sounds in intro?
   + [ ] Voice acting
   + [ ] Name the levels
   + [ ] Back to main menu button

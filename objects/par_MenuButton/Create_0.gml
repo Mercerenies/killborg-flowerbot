@@ -1,6 +1,8 @@
 
 text = "";
 
+clicking = false;
+
 onClick = function() {}
 
 containedWithin = function(xx, yy) {
@@ -9,3 +11,5 @@ containedWithin = function(xx, yy) {
   var hh = string_height(text);
   return point_in_rectangle(xx, yy, x - ww / 2, y - hh / 2, x + ww / 2, y + hh / 2);
 }
+
+color = $535353;

@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="589.25397mm"
+   height="161.54225mm"
+   viewBox="0 0 589.25397 161.54225"
    version="1.1"
    id="svg1814"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
@@ -104,8 +104,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.42648314"
-     inkscape:cx="577.62909"
-     inkscape:cy="471.47495"
+     inkscape:cx="519.0916"
+     inkscape:cy="-208.97485"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -130,7 +130,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(192.961,40.821044)">
     <text
        xml:space="preserve"
        style="font-weight:900;font-size:66.8657px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Heavy';text-align:center;text-anchor:middle;stroke-width:1.67165"
@@ -141,12 +142,12 @@
        inkscape:export-ydpi="16.143471"><tspan
          sodipodi:role="line"
          id="tspan2377"
-         x="103.75554"
+         x="103.75555"
          y="21.865549"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'The Keepsake Days';-inkscape-font-specification:'The Keepsake Days Bold';text-align:center;text-anchor:middle;fill:#535353;fill-opacity:1;stroke-width:1.67165">K  LLBORG</tspan><tspan
          sodipodi:role="line"
-         x="103.75554"
-         y="120.72116"
+         x="103.75555"
+         y="120.72121"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'The Keepsake Days';-inkscape-font-specification:'The Keepsake Days Bold';text-align:center;text-anchor:middle;fill:#535353;fill-opacity:1;stroke-width:1.67165"
          id="tspan840">FL  WERBOT</tspan></text>
     <g

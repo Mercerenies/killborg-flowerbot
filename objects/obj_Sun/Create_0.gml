@@ -21,6 +21,3 @@ setProgress = function(amount) {
     layer_background_blend(layer_background_get_id("Background"), c);
   }
 }
-
-var levelNumber = real(string_digits(room_get_name(room)));
-saveGame(levelNumber);

@@ -12,6 +12,9 @@ onClick = function() {
   } else {
     rmName += string(levelNumber);
   }
+  if (levelNumber > LEVEL_COUNT) {
+    rmName = "rm_BLevel" + string(levelNumber - LEVEL_COUNT);
+  }
   var rm = asset_get_index(rmName);
   if (room_exists(rm)) {
     room_goto(rm);

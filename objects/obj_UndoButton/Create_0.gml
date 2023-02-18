@@ -7,3 +7,7 @@ onClick = function() {
     undo_stack_undo();
   }
 }
+
+x -= 128;
+var inst = instance_create_layer(x + 128, y, "Instances_UI", obj_MainMenuButton);
+inst.depth = -99900;

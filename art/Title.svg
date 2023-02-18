@@ -103,9 +103,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.42648314"
-     inkscape:cx="519.0916"
-     inkscape:cy="-208.97485"
+     inkscape:zoom="0.21324157"
+     inkscape:cx="1563.0608"
+     inkscape:cy="962.19499"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -322,5 +322,18 @@
          rx="2.5878336"
          ry="2.5651186" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:900;font-size:66.8657px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Heavy';text-align:center;text-anchor:middle;stroke-width:1.67165"
+       x="126.76517"
+       y="318.28793"
+       id="text2379-9"
+       inkscape:export-xdpi="16.143471"
+       inkscape:export-ydpi="16.143471"><tspan
+         sodipodi:role="line"
+         x="126.76516"
+         y="318.28793"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'The Keepsake Days';-inkscape-font-specification:'The Keepsake Days Bold';text-align:center;text-anchor:middle;fill:#535353;fill-opacity:1;stroke-width:1.67165"
+         id="tspan840-0">LEVEL SELECT</tspan></text>
   </g>
 </svg>

@@ -2,7 +2,7 @@
 // Inherit the parent event
 event_inherited();
 
-text = "Play Game";
+text = "Back";
 onClick = function() {
-  room_goto(rm_LevelSelect);
+  room_goto(rm_TitleScreen);
 }

@@ -28,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_GrassScroller",
+    "path": "sprites/spr_GrassScroller/spr_GrassScroller.yy",
+  },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

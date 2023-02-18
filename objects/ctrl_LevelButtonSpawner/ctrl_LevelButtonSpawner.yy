@@ -1,15 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_TitleText",
+  "name": "ctrl_LevelButtonSpawner",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Title",
-    "path": "folders/Menus/Title.yy",
+    "name": "Menus",
+    "path": "folders/Menus.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,9 +28,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_TitleText",
-    "path": "sprites/spr_TitleText/spr_TitleText.yy",
+    "name": "spr_LevelButtonSpawner",
+    "path": "sprites/spr_LevelButtonSpawner/spr_LevelButtonSpawner.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

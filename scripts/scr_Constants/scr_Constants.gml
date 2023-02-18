@@ -2,6 +2,7 @@
 #macro GRID_SIZE 64
 #macro GAMESPEED 60
 #macro INSTRUCTION_HEIGHT 30
+#macro LEVEL_COUNT 25
 
 #macro DIR_LEFT 6
 #macro DIR_RIGHT 2

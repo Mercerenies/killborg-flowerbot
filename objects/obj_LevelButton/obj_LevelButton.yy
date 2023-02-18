@@ -1,17 +1,21 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_TitleText",
+  "name": "obj_LevelButton",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Title",
-    "path": "folders/Menus/Title.yy",
+    "name": "Buttons",
+    "path": "folders/Menus/Buttons.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_MenuButton",
+    "path": "objects/par_MenuButton/par_MenuButton.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -27,10 +31,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_TitleText",
-    "path": "sprites/spr_TitleText/spr_TitleText.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

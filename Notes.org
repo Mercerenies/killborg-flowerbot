@@ -19,5 +19,12 @@
   + [ ] SFX
   + [ ] Voice acting
   + [ ] Name the levels
+  + [ ] Back to main menu button
+  + [ ] Credits
+    - NAL fonts
+    - Alice's undo package
+  + [ ] Bonus levels
+  + [ ] Intro / outro
+  + [ ] Save / load
   + [ ] Final check: level order
   + [ ] Final check: todo and debug

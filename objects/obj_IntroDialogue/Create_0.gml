@@ -22,6 +22,7 @@ _popDia = function() {
       showingDia();
       showingDia = undefined;
     } else {
+      showingDia.playSound();
       displayText = "";
       break;
     }

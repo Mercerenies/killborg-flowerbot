@@ -17,6 +17,7 @@ enqueueDia = function(dia) {
 _popDia = function() {
   if (!ds_queue_empty(dialogueQueue)) {
     showingDia = ds_queue_dequeue(dialogueQueue);
+    showingDia.playSound();
   } else {
     showingDia = undefined;
   }

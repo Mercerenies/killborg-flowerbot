@@ -1,5 +1,5 @@
 
 initialDia = function() {
-  enqueueDia(new Dia("it has been a pleasure enflowering the universe alongside you, administrator."));
+  enqueueDia(new Dia("it has been a pleasure enflowering the universe alongside you, administrator.", ItHasBeenAPleasure));
 }
 initialDia();

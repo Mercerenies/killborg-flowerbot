@@ -21,6 +21,7 @@
     {"name":"Levels","order":32,"path":"folders/Rooms/Levels.yy",},
     {"name":"Bonus Levels","order":37,"path":"folders/Rooms/Bonus Levels.yy",},
     {"name":"Voices","order":11,"path":"folders/Voices.yy",},
+    {"name":"Sounds","order":12,"path":"folders/Sounds.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_LevelButtonSpawner","order":5,"path":"sprites/spr_LevelButtonSpawner/spr_LevelButtonSpawner.yy",},

@@ -1,6 +1,11 @@
 
 image_alpha = 0;
-alarm[0] = 120;
+if (room == rm_Intro) {
+  alarm[0] = 360;
+  audio_play_sound(BeepBeep, 10, false);
+} else {
+  alarm[0] = 120;
+}
 
 badDialogues = 0;
 

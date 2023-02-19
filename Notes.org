@@ -15,11 +15,11 @@
 * DIALOGUE
   + [X] Introduction
 * STUFF
-  + [ ] BGM
-  + [ ] SFX
-    - [ ] Dial up sounds in intro?
-  + [ ] Voice acting
-    - [ ] Easter eggs based on player name
+  + [X] BGM
+  + [X] SFX
+    - [X] Dial up sounds in intro?
+  + [X] Voice acting
+    - [X] Easter eggs based on player name
   + [X] Back to main menu button
   + [X] Credits
     - NAL fonts

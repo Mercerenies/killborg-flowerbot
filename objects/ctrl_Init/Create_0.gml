@@ -29,3 +29,5 @@ part_type_orientation(global.static_thunder, 0, 0, 0, 0, false);
 part_type_colour_mix(global.static_thunder, $6aebf8, $09bbcd);
 part_type_alpha1(global.static_thunder, 1);
 part_type_life(global.static_thunder, 4, 5);
+
+audio_play_sound(BGM, 0, true);

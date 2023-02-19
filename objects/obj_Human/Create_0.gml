@@ -11,5 +11,8 @@ flatten = function() {
 }
 
 enflower = function() {
-  undo_stack_apply_change(new EnflowerHumanChange(self));
+  if (!hasFlower) {
+    undo_stack_apply_change(new EnflowerHumanChange(self));
+    audio_play_sound(Flower, 5, false);
+  }
 }

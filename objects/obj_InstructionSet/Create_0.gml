@@ -9,6 +9,7 @@ executeInstruction = function(slot) {
   if (i >= instructionCount) {
     return false;
   }
+  audio_play_sound(Instruction, 5, false);
   undo_stack_apply_change(new PushInstructionChange(slot));
   if (corruptedInstructions[i]) {
     slot.instruction.doCorrupted();
